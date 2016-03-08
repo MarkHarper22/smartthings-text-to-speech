@@ -30,7 +30,7 @@ sudo npm install -g forever
 sudo npm install -g forever-service
 ```
 
-8) Type ifcongig and get ip address of machine, ouput should appear as below. IP address is 192.168.0.11 for me.
+8) Type ifcongig and get IP address of machine, ouput should appear as below. IP address is 192.168.0.11 for me.
 ``` bash
 eth0      Link encap:Ethernet  HWaddr b8:27:eb:a9:70:ec
           inet addr:192.168.0.11  Bcast:192.168.0.255  Mask:255.255.255.0
