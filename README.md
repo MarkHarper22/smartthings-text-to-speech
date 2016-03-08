@@ -15,22 +15,17 @@ sudo apt-get install nodejs nodejs-legacy npm git
 sudo apt-get install libasound2-dev
 ```
 
-5) Install npm packages
-``` bash
-sudo npm install
-```
-
-6) Install forever (globally)
+5) Install forever (globally)
 ``` bash
 sudo npm install -g forever
 ```
 
-7) Install forver service (globally)
+6) Install forver service (globally)
 ``` bash
 sudo npm install -g forever-service
 ```
 
-8) Type ifcongig and get IP address of machine, ouput should appear as below. IP address is 192.168.0.11 for me.
+7) Type ifcongig and get IP address of machine, ouput should appear as below. IP address is 192.168.0.11 for me.
 ``` bash
 eth0      Link encap:Ethernet  HWaddr b8:27:eb:a9:70:ec
           inet addr:192.168.0.11  Bcast:192.168.0.255  Mask:255.255.255.0
@@ -50,4 +45,34 @@ lo        Link encap:Local Loopback
           TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
           collisions:0 txqueuelen:0
           RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+```
+
+8) Make a folder to put the git repository in, if it dosen't exist
+``` bash
+mkdir /var/www
+```
+
+9) Clone the git repoitory into the folder
+``` bash
+git clone https://github.com/adamclark-dev/smartthings-text-to-speach.git tts
+```
+
+18) Enter the folder you just created
+``` bash
+cd /var/www/tss
+```
+
+11) Install NPM packages
+``` bash
+sudo npm install
+```
+
+12) Turn the application into a service to run constantly on your linux installation
+``` bash
+sudo forever-service install tts --script server.js
+```
+
+13) Start the tex to speach service on your server
+``` bash
+sudo service tts start
 ```
