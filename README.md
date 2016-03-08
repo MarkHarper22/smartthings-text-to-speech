@@ -15,12 +15,12 @@ Install npm packages
 ``` bash
 sudo npm install
 ```
-Install forver globally
+Install forever (globally)
 ``` bash
 sudo npm install -g forever
 ```
 
-Install forver service globally
+Install forver service (globally)
 ``` bash
 sudo npm install -g forever-service
 ```
