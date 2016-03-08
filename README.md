@@ -5,9 +5,9 @@ SmartThings text to speech server in NodeJS
 
 2) Login to linux machine
 
-3) Install node and NPM
+3) Install node, git and NPM
 ``` bash
-sudo apt-get install nodejs nodejs-legacy npm
+sudo apt-get install nodejs nodejs-legacy npm git
 ```
 
 4) Install libasound2-dev
