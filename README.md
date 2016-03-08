@@ -72,7 +72,7 @@ sudo npm install
 sudo forever-service install tts --script server.js
 ```
 
-13) Start the tex to speach service on your server
+13) Start the text-to-speach service on your server
 ``` bash
 sudo service tts start
 ```
