@@ -1,4 +1,4 @@
-# SmartThings text-to-speech server 
+# Voice notification server and smartapp for SmartThings
 SmartThings text to speech server in NodeJS. 
 
 Video instructions - https://www.youtube.com/watch?v=o5H1mfNK6eM
