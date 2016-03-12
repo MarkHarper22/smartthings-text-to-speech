@@ -1,5 +1,7 @@
 # SmartThings text-to-speech server 
-SmartThings text to speech server in NodeJS
+SmartThings text to speech server in NodeJS. 
+
+Video instructions - https://www.youtube.com/watch?v=o5H1mfNK6eM
 
 ## Installation
 1) Sign up for developer account at https://www.ivona.com/ and get access key and secret key
