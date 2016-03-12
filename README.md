@@ -1,5 +1,5 @@
-# SmartThings text-to-speech server 
-SmartThings text to speech server in NodeJS
+# SmartThings text-to-speach server 
+SmartThings text to speach server in NodeJS
 
 1) Sign up for developer account at https://www.ivona.com/ and get access key and secret key
 
@@ -59,7 +59,7 @@ git clone https://github.com/adamclark-dev/smartthings-text-to-speach.git tts
 
 18) Enter the folder you just created
 ``` bash
-cd /var/www/tss
+cd /var/www/tts
 ```
 
 11) Install NPM packages
