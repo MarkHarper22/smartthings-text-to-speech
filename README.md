@@ -1,5 +1,5 @@
-# SmartThings text-to-speach server 
-SmartThings text to speach server in NodeJS
+# SmartThings text-to-speech server 
+SmartThings text to speech server in NodeJS
 
 1) Sign up for developer account at https://www.ivona.com/ and get access key and secret key
 
