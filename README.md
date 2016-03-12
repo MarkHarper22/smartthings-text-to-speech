@@ -1,6 +1,7 @@
 # SmartThings text-to-speech server 
 SmartThings text to speech server in NodeJS
 
+## Installation
 1) Sign up for developer account at https://www.ivona.com/ and get access key and secret key
 
 2) Login to linux machine
@@ -81,3 +82,5 @@ sudo service tts start
 ``` bash
 sudo amixer sset PCM,0 100%
 ```
+
+15) Now install the smartapp on the smartthigns cloud.
