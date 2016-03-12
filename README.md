@@ -76,3 +76,8 @@ sudo forever-service install tts --script server.js
 ``` bash
 sudo service tts start
 ```
+
+14) If using a RaspberryPI then you might want to change the volume to 100% so that you can control the volume on your speakers or amplifier
+``` bash
+sudo amixer sset PCM,0 100%
+```
