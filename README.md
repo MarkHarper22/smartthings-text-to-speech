@@ -1,9 +1,7 @@
 # Voice notification server and smartapp for SmartThings
-SmartThings text to speech server in NodeJS. 
-
 Video instructions - https://www.youtube.com/watch?v=o5H1mfNK6eM
 
-## Installation
+## Installation Instructions
 1) Sign up for developer account at https://www.ivona.com/ and get access key and secret key
 
 2) Login to linux machine
